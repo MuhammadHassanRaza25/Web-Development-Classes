@@ -1,0 +1,37 @@
+.mango{
+  background-color: yellow;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+  font-family: sans-serif;
+}
+.mango:hover{
+  background-color: #fff36b;
+  color: yellow;
+}
+#strawberry{
+  background-color: rgb(255, 0, 30);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+  font-family: sans-serif;
+}
+#strawberry:hover{
+  background-color: rgb(255, 137, 150);
+  color: rgb(255, 0, 30);
+  text-shadow: 1px 1px 5px rgb(255, 254, 254);
+}
+.paragraph{
+  text-transform: capitalize;
+}
+.shadow{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 10px cyan;
+}
+.shadow:hover{
+   background-color: aqua;
+}
+.codeTxt{
+  font-weight: bold;
+  vertical-align: top;
+}
