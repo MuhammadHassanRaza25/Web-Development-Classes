@@ -1,0 +1,63 @@
+.Box1{
+    background-color: rgb(77, 228, 1);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: capitalize;
+    width: 50vw;
+    height: 200px;
+    overflow: scroll;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px black;
+}
+.Box2{
+    background-color: rgb(252, 213, 167);
+    border: 3px solid rgb(255, 57, 57);
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 5%;
+    /* border-top-color: blue; */
+    /* border-bottom-color: rgb(43, 255, 0);
+    border-left-color: rgb(0, 208, 255);
+    border-right-color: rgb(255, 0, 153); */
+    /* border-width: 2px 3px 2px 3px ; */
+    /*           top right bottom left                    */
+    /* margin: 5%; */
+    /* margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%; */
+}
+.Box3{
+    background-color: rgb(196, 255, 245);
+    border: 2px solid rgb(0, 0, 0);
+    border-style: dashed;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+li{
+    display: inline-block;
+    margin: 2%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* .services{
+    visibility: hidden;
+} */
+.h1{
+    background-color: rgb(204, 255, 0);
+    display: inline-block;
+}
+.span{
+    background-color: blueviolet;
+    color: white;
+    display: block;
+}
+
+@media(max-width: 500px){
+    .Box{
+        background-color: rgb(45, 0, 224);
+        color: white;
+        width: 100vw;
+        height: 20vh;
+    }
+}
